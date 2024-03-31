@@ -9,7 +9,7 @@ pygame.display.set_caption("Hello World")
 done = False
 win = False
 points = 0
-start = false
+start = False
 
 red = (255,0,0)
 orange = (255,125,0)
@@ -18,7 +18,7 @@ green = (0, 255, 0)
 blue = (0, 0, 255)
 purple = (255,0, 255)
 
-while start == false:
+while start == False:
    canvas.fill(blue)
    font = pygame.font.SysFont("Arial", 20)
    txtsurf = font.render(str(points), True, orange)
