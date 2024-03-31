@@ -18,7 +18,7 @@ green = (0, 255, 0)
 blue = (0, 0, 255)
 purple = (255,0, 255)
 
-while start == false
+while start == false:
    canvas.fill(blue)
    font = pygame.font.SysFont("Arial", 20)
    txtsurf = font.render(str(points), True, orange)
