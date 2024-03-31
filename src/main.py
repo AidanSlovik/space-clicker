@@ -9,6 +9,7 @@ pygame.display.set_caption("Hello World")
 done = False
 win = False
 points = 0
+start = false
 
 red = (255,0,0)
 orange = (255,125,0)
@@ -17,6 +18,14 @@ green = (0, 255, 0)
 blue = (0, 0, 255)
 purple = (255,0, 255)
 
+while start == false
+   canvas.fill(blue)
+   font = pygame.font.SysFont("Arial", 20)
+   txtsurf = font.render(str(points), True, orange)
+   canvas.blit(txtsurf, (100, 100))
+   if event.type == pygame.MOUSEBUTTONDOWN:
+      start = true
+      
 while done == False:
    for event in pygame.event.get():
       if event.type == pygame.QUIT:
