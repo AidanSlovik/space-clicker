@@ -26,7 +26,8 @@ while start == False:
       canvas.blit(txtsurf, (100, 100))
       if event.type == pygame.MOUSEBUTTONDOWN:
          start = True
-      
+   pygame.display.update()
+   
 while done == False:
    for event in pygame.event.get():
       if event.type == pygame.QUIT:
