@@ -25,7 +25,7 @@ while start == False:
       txtsurf = font.render(str(points), True, orange)
       canvas.blit(txtsurf, (100, 100))
       if event.type == pygame.MOUSEBUTTONDOWN:
-         start = true
+         start = True
       
 while done == False:
    for event in pygame.event.get():
