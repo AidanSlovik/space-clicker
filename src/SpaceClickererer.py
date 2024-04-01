@@ -22,7 +22,7 @@ while start == False:
    for event in pygame.event.get():
       canvas.fill(blue)
       font = pygame.font.SysFont("Arial", 20)
-      txtsurf = font.render(str(points), True, orange)
+      txtsurf = font.render("Welcome to Space Clicker", True, (255, 255, 255))
       canvas.blit(txtsurf, (100, 100))
       if event.type == pygame.MOUSEBUTTONDOWN:
          start = True
