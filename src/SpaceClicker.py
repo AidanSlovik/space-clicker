@@ -19,12 +19,13 @@ blue = (0, 0, 255)
 purple = (255,0, 255)
 
 while start == False:
-   canvas.fill(blue)
-   font = pygame.font.SysFont("Arial", 20)
-   txtsurf = font.render(str(points), True, orange)
-   canvas.blit(txtsurf, (100, 100))
-   if event.type == pygame.MOUSEBUTTONDOWN:
-      start = true
+   for event in pygame.event.get():
+      canvas.fill(blue)
+      font = pygame.font.SysFont("Arial", 20)
+      txtsurf = font.render(str(points), True, orange)
+      canvas.blit(txtsurf, (100, 100))
+      if event.type == pygame.MOUSEBUTTONDOWN:
+         start = true
       
 while done == False:
    for event in pygame.event.get():
