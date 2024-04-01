@@ -3,7 +3,7 @@ from pygame.locals import *
 
 pygame.init()
 
-canvas = pygame.display.set_mode((250, 250), pygame.RESIZABLE)
+canvas = pygame.display.set_mode((500, 500), pygame.RESIZABLE)
 pygame.display.set_caption("Hello World")
 
 done = False
