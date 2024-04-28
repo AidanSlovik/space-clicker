@@ -8,7 +8,7 @@ I have not started on any work with graphics.
 
 ## Class Diagram  
 
-![Gameplay](https://github.com/AidanSlovik/space-clicker/blob/main/images/Class%20Diagram.png?raw=true "Class Diagram")
+![Gameplay](https://github.com/AidanSlovik/space-clicker/blob/main/images/Class%20Diagram.png "Class Diagram")
 
 ## My game has 3 classes:  
 1. A main class with most of the code  
